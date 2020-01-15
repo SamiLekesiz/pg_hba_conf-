@@ -10,7 +10,7 @@ Conf dosyası okunurken bir kayıt seçilirse ve doğrulama başarısız olursa,
 
 
 7 tane kayıt formatı vardır.
-
+```
 local      database  user  auth-method  [auth-options]
 host       database  user  address  auth-method  [auth-options]
 hostssl    database  user  address  auth-method  [auth-options]
@@ -18,7 +18,7 @@ hostnossl  database  user  address  auth-method  [auth-options]
 host       database  user  IP-address  IP-mask  auth-method  [auth-options]
 hostssl    database  user  IP-address  IP-mask  auth-method  [auth-options]
 hostnossl  database  user  IP-address  IP-mask  auth-method  [auth-options]
-
+```
 
 Buradaki parametreler şu anlamlara geliyor;
 
