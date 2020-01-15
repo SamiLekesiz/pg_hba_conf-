@@ -54,11 +54,11 @@ auth-method: kimlik doğrulama yöntemini belirtir.
     md5: doğrulama için md5 veya sha256 ister.
     password: client’dan şifrelenmemiş parola ister.
     peer:sadece yerel ağda kullan. kullanıcının OS adıyla, DB adını kıyaslar.
-ldap,  ident, radius, cert, pam ve bsd diğer yöntemlerdir.
+    ldap,  ident, radius, cert, pam ve bsd diğer yöntemlerdir.
 
 
 pg_hba.conf kayıtları her bağlantı denemesi için sırayla incelediğinden, kayıtların sırası önemlidir. 
-earlier records will have tight connection match parameters and weaker authentication methods, while later records will have looser match parameters and stronger authentication methods
+# earlier records will have tight connection match parameters and weaker authentication methods, while later records will have      looser match parameters and stronger authentication methods
 
 
 RELOAD
