@@ -4,7 +4,7 @@
 
 PG_HBA_CONF  NEDİR & NE YAPAR
 
-İstemci kimlik doğrulaması için oluşturulmuş konfigürasyon dosyasıdır.
+PostgreSQL'de istemci kimlik doğrulaması için oluşturulmuş konfigürasyon dosyasıdır.
 pg_hba.conf satır başına bir kayıt alır.
 Conf dosyası okunurken bir kayıt seçilirse ve doğrulama başarısız olursa, sonraki kayıtlar dikkate alınmaz. Kayıt eşleşmezse erişim reddedilir.
 
